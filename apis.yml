@@ -1,8 +1,23 @@
 aid: dazzle-ai
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dazzle-ai.png
 name: Dazzle AI
-description: 'Dazzle AI is a company surfaced as a portfolio company of forerunner-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Dazzle AI is an early-stage, pre-launch artificial intelligence company backed by Forerunner
+  Ventures, with the stated mission of closing the gap between what people want and what they can do with
+  AI. As of mid-2026 the product is invite-only: the public site collects waitlist sign-ups and publishes
+  About, Jobs, Press, Support, Terms of Service, and Privacy Policy pages, but exposes no developer portal,
+  API, documentation, or SDKs. This profile is maintained in the API Evangelist network as a lead awaiting
+  a public API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/dazzle-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Ai
+- AI
+- Artificial Intelligence
+- Consumer
+- Pre-Launch
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +42,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dazzle-ai-domain-security.yml
 - type: Website
   url: https://dazzle.ai
+- type: Support
+  url: https://dazzle.ai/support/
+- type: TermsOfService
+  url: https://dazzle.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://dazzle.ai/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
