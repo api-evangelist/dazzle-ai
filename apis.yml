@@ -44,14 +44,12 @@ tags:
 - Artificial Intelligence
 - Consumer
 - Pre-Launch
-- Startups
 tags_raw:
 - Company
 - AI
 - Artificial Intelligence
 - Consumer
 - Pre-Launch
-- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -74,3 +72,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Startups
+x-company-stage: pre-launch
+x-company-stage-evidence: "own tags: Startup, Pre-Launch"
